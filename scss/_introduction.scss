@@ -23,6 +23,16 @@ gap: 100px;
     gap: 20px;
 }
 
+.introduction a {
+    color: #fec214;
+    border-bottom: 2px solid #da2d72;
+}
+
+.introduction a:hover {
+    color: #da2d72;
+    transition: all 0.2s;
+}
+
 @media (max-width: 1530px) {
 
     .introduction {
@@ -68,6 +78,8 @@ gap: 100px;
     position: relative;
     width: 500px;
     height: 500px;
+    display: flex;
+    align-items: center;
 }
 
 
