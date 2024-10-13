@@ -1,0 +1,11 @@
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "portofolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "sass scss:css --watch"
+  },
+  "author": "CVDash",
+  "license": "ISC"
+}

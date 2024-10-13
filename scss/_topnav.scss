@@ -1,0 +1,54 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-bottom: 5px solid #da2d72;
+    
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.languages img {
+    width: 80px;
+    height: 80px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 508px) {
+
+    .languages img {
+        margin-right: 20px;
+    }
+    .languages{ padding-right: 20px;}
+}
+
+@media (max-width: 450px) {
+
+    .languages img, .logo img {
+        width: 55px;
+        height: 55px;
+    }
+    .languages{ padding-right: 20px;}
+}
+
+.languages a:hover, .logo a:hover {
+    opacity: 50%;
+}

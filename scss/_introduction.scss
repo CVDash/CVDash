@@ -1,0 +1,136 @@
+.introduction {
+background-color: black;
+padding: 50px 40px;
+display: flex;
+justify-content: center;
+text-shadow: 2px 2px 2px #da2d72;
+border-bottom: #da2d72 solid 5px;
+gap: 100px;
+
+}
+
+
+
+.introduction h1 {
+    color: #da2d72;
+    text-shadow: 2px 2px 2px #fec214;
+    padding-bottom: 50px;
+}
+
+.introductiontext {
+    
+    font-size: 2.55rem;
+    gap: 20px;
+}
+
+@media (max-width: 1530px) {
+
+    .introduction {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .introductiontext {
+        order: 2;
+    }
+
+    .introductionimg {
+        order: 1;
+    }
+
+    .introduction h1 {
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 814px) {
+    .introduction h1 {
+        font-size: 4.5rem;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 724px) {
+    .introduction h1 {
+        font-size: 4rem;
+        
+    }
+}
+
+
+
+
+
+
+.introductionimg {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+
+
+.introductionimgcontainer {
+    
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.introductionimg img{
+    
+    width: 100%;
+    
+    transition:0.5s;
+    
+}
+
+
+.introductionimg:hover img{
+    transform: scale(0.9);
+    border: #fec214 solid 30px;
+    transition: all 0.4s ease-in-out;
+    
+}
+
+.introductionimg:hover .imgdescription{
+    visibility: visible;
+}
+
+.imgdescription:hover {
+    border: 25px solid #da2d72;
+    transition: border 0.2s ease-in-out;
+}
+
+.imgdescription {
+    display: flex;
+    align-items:end;
+    justify-content: center;
+    visibility: hidden;
+    position: absolute;
+    z-index: 2;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    background-color: #99999928;
+    font-size: 2.4rem;
+    color: rgba(255, 255, 255, 0.87);
+    cursor: pointer;
+    object-fit: cover;
+    color: #fec214;
+    padding-bottom: 50px ;
+}
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+footer {
+    background-color: black;
+    
+    padding: 30px 0 30px 0;
+    border-bottom: 5px solid #da2d72;
+    text-shadow: 2px 2px 2px #da2d72;
+    font-size: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    padding-bottom: 20px;
+}
+
+.youcanfindmeon {
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+
+
+
+
+.youcanfindmeon a{
+   color: #fec214;
+   
+   
+}
+
+.youcanfindmeon a:hover {
+    opacity: 50%;
+}
+
+.icons {
+    display: flex;
+    justify-content: left;
+   width: 100%;
+   gap: 20px;
+}
+
+
+
+
+@media (max-width: 1532px) {
+    footer{
+        text-align: center;
+    }
+}
