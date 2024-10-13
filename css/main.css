@@ -76,7 +76,7 @@ body a {
   text-shadow: 2px 2px 2px #da2d72;
   border-bottom: 5px solid #da2d72;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
   font-size: 2rem;
@@ -441,6 +441,88 @@ footer p {
   object-fit: cover;
   color: #fec214;
   padding-bottom: 50px;
+}
+
+.otherthings {
+  background-color: black;
+  text-shadow: 2px 2px 2px #da2d72;
+  border-bottom: 5px solid #da2d72;
+  padding: 30px 20px;
+  font-size: 2rem;
+  color: #fec214;
+}
+
+.otherthings h2 {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.otherthings h3 {
+  padding-top: 20px;
+}
+
+.otherthings a {
+  color: #fec214;
+}
+
+.otherthings a:hover {
+  color: #da2d72;
+  transition: color 0.2s;
+}
+
+.contentcontainer {
+  display: flex;
+  flex-wrap: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.spotify {
+  border: #fec214 solid 2px;
+  box-shadow: #da2d72 2px 2px 2px;
+  width: 45%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+
+.youtube {
+  border: #fec214 solid 2px;
+  box-shadow: #da2d72 2px 2px 2px;
+  width: 45%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+
+iframe {
+  padding: 40px;
+}
+
+.quake {
+  border: #fec214 solid 2px;
+  box-shadow: #da2d72 2px 2px 2px;
+  width: 45%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+
+.quake img {
+  width: 600px;
 }
 
 /*# sourceMappingURL=main.css.map */
