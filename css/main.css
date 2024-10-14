@@ -522,7 +522,11 @@ iframe {
 }
 
 .quake img {
-  width: 600px;
+  width: 500px;
+}
+
+.fire {
+  background-color: rgb(228, 152, 12);
 }
 
 /*# sourceMappingURL=main.css.map */

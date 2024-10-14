@@ -1,27 +1,33 @@
+function playaudiogrenade() {
+  var audio = document.getElementById("grenadelauncher");
+  audio.currentTime=0;
+  audio.load();
+  audio.play();
 
-window.onscroll = function() {myFunction()};
+  var backgroundfire = document.getElementById ("quake");
+  backgroundfire.classList.add ('fire');
+
+  setTimeout(function(){
+    backgroundfire.classList.remove ('fire'); 
+  },100);
+}
+
+function playaudiorocket() {
+  var audio = document.getElementById("rocketlauncher");
+  audio.currentTime=0;
+  audio.load();
+  audio.play();
+
+  var backgroundfirerocket = document.getElementById ("serioussam");
+  backgroundfirerocket.classList.add ('fire');
+
+  setTimeout(function(){
+    backgroundfirerocket.classList.remove ('fire'); 
+  },100);
+}
 
 
-var header = document.getElementById("bannerid");
-
-
-var sticky = header.offsetTop;
-
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-} 
-
-
-function dropdownopen() {
-  var x = document.getElementById("dropdown");
-   if (x.style.display === "block") {
-     x.style.display = "none";
-   } else {
-     x.style.display = "block";
-     }
- }
+var volumeG = document.getElementById ("grenadelauncher")
+volumeG.volume = 0.1;
+var volumeR = document.getElementById ("rocketlauncher")
+volumeR.volume = 0.1;
