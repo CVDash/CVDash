@@ -444,6 +444,11 @@ footer p {
   padding-bottom: 30px;
 }
 
+@media only screen and (max-width: 1279px) {
+  .imgdescription {
+    visibility: visible;
+  }
+}
 .otherthings {
   background-color: black;
   text-shadow: 2px 2px 2px #da2d72;

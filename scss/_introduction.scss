@@ -141,7 +141,11 @@ gap: 100px;
     padding-bottom: 30px ;
 }
 
-
+@media only screen and (max-width: 1279px) {
+    .imgdescription {
+        visibility: visible;
+    }
+}
 
 
 
