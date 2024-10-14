@@ -61,6 +61,7 @@ html, body {
   font-style: normal;
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 body a {
@@ -278,7 +279,7 @@ body a {
     gap: 50px;
   }
   .programmingicons {
-    width: 400px;
+    width: 50%;
   }
   .whatcanido br {
     display: none;
@@ -424,7 +425,6 @@ footer p {
   display: flex;
   align-items: end;
   justify-content: center;
-  visibility: hidden;
   position: absolute;
   z-index: 2;
   margin: 0;
@@ -440,7 +440,7 @@ footer p {
   cursor: pointer;
   object-fit: cover;
   color: #fec214;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .otherthings {
@@ -527,6 +527,31 @@ iframe {
 
 .fire {
   background-color: rgb(228, 152, 12);
+}
+
+@media only screen and (max-width: 1532px) {
+  .contentcontainer {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .youtube, .spotify, .quake {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .quake h3, .youtube h3, .spotify h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .quake, .youtube, .spotify {
+    padding: 0;
+  }
+  .quake img {
+    width: 200px;
+  }
+  iframe {
+    padding: 10px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

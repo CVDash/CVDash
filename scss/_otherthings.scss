@@ -88,3 +88,32 @@ iframe {
 .fire {
     background-color: rgb(228, 152, 12);
 }
+
+@media only screen and (max-width: 1532px) {
+    .contentcontainer {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .youtube, .spotify, .quake {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .quake h3, .youtube h3, .spotify h3  {
+        font-size:2rem;
+        text-align: center;
+    }
+
+    .quake, .youtube, .spotify {
+        padding: 0;
+    }
+    .quake img {
+        width: 200px;
+    }
+
+    iframe {
+        padding: 10px;
+    }
+}
