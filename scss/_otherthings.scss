@@ -32,10 +32,11 @@ color:#fec214;
 
 .contentcontainer {
     display: flex;
-    flex-wrap: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 30px;
+    gap: 50px;
 }
 
 .spotify {
@@ -83,6 +84,14 @@ iframe {
 
 .quake img {
     width: 500px;
+}
+
+#serioussam img {
+    width: 400px;
+}
+
+#quake img {
+    width: 400px;
 }
 
 .fire {
