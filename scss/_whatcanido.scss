@@ -224,3 +224,14 @@ font-size: 2rem;
         display: none;
     }
 }
+
+@media (max-width: 800px) {
+
+    .programmingicons {
+        width: 80%;
+    }
+
+    .whatcanido br {
+        display: none;
+    }
+}
