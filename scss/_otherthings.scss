@@ -80,6 +80,7 @@ iframe {
     flex-direction: column;
     padding: 20px;
     gap: 20px;
+    text-align: center;
 }
 
 .quake img {
@@ -98,7 +99,7 @@ iframe {
     background-color: rgb(228, 152, 12);
 }
 
-@media only screen and (max-width: 1532px) {
+@media only screen and (max-width: 1626px) {
     .contentcontainer {
         flex-direction: column;
         gap: 40px;
@@ -109,7 +110,7 @@ iframe {
     }
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 824px) {
     .quake h3, .youtube h3, .spotify h3  {
         font-size:2rem;
         text-align: center;
@@ -119,6 +120,14 @@ iframe {
         padding: 0;
     }
     .quake img {
+        width: 200px;
+    }
+
+    #serioussam img {
+        width: 200px;
+    }
+    
+    #quake img {
         width: 200px;
     }
 
